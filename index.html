@@ -959,22 +959,223 @@
 
         /* Mobile Responsive */
         @media (max-width: 768px) {
-            .about-content,
-            .contact-content {
+            /* Navigation Mobile */
+            .nav-container {
+                padding: 0 1rem;
+            }
+
+            /* Hero Mobile */
+            .hero-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 2rem;
+                padding: 2rem 1rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .tagline {
+                font-size: 1.1rem;
+            }
+
+            .hero-image {
+                order: -1;
+                margin-bottom: 2rem;
+            }
+
+            .image-container {
+                width: 250px;
+                height: 250px;
+            }
+
+            .profile-placeholder {
+                font-size: 5rem;
+            }
+
+            .hero-stats {
+                justify-content: space-around;
+                gap: 1rem;
+                flex-wrap: wrap;
+            }
+
+            .stat {
+                min-width: 80px;
+            }
+
+            .stat-number {
+                font-size: 1.8rem;
+            }
+
+            .stat-label {
+                font-size: 0.8rem;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .btn {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            /* About Mobile */
+            .about-content {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
-            .projects-grid {
-                grid-template-columns: 1fr;
+            .about-text h3 {
+                font-size: 1.5rem;
             }
 
+            .section-title {
+                font-size: 2rem;
+            }
+
+            /* Experience Mobile */
             .timeline {
                 padding-left: 1rem;
             }
 
             .timeline-item::before {
                 left: -1.5rem;
+            }
+
+            .timeline-content h3 {
+                font-size: 1.2rem;
+            }
+
+            /* Projects Mobile */
+            .projects-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .project-card {
+                padding: 1.5rem;
+            }
+
+            .project-metrics {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            /* Skills Mobile */
+            .skills-categories {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            /* Contact Mobile */
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .contact-info {
+                gap: 1.5rem;
+            }
+
+            /* Floating Elements Mobile */
+            .floating-element {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+
+            /* General Mobile Adjustments */
+            section {
+                padding: 3rem 1rem;
+            }
+
+            h1, h2, h3 {
+                word-wrap: break-word;
+            }
+
+            /* Hide parallax on mobile for performance */
+            .hero-bg {
+                animation: none;
+            }
+
+            /* Adjust text sizes */
+            p {
+                font-size: 0.95rem;
+            }
+
+            /* Form Mobile */
+            .form-group input,
+            .form-group textarea {
+                font-size: 16px; /* Prevents zoom on iOS */
+            }
+        }
+
+        /* Small Mobile Devices */
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 1.75rem;
+            }
+
+            .image-container {
+                width: 200px;
+                height: 200px;
+            }
+
+            .stat-number {
+                font-size: 1.5rem;
+            }
+
+            .project-card {
+                padding: 1.25rem;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        /* Hamburger Menu for Mobile */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 60px;
+                right: -100%;
+                width: 250px;
+                height: calc(100vh - 60px);
+                background: rgba(0, 0, 0, 0.95);
+                flex-direction: column;
+                padding: 2rem;
+                transition: right 0.3s ease;
+                gap: 1.5rem;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .nav-links a {
+                font-size: 1.1rem;
             }
         }height: 300px;
             }
@@ -999,6 +1200,11 @@
     <nav>
         <div class="nav-container">
             <div class="logo">SJ</div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 12h18M3 6h18M3 18h18"/>
+                </svg>
+            </button>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -1465,6 +1671,28 @@
 
     <!-- Additional sections would go here -->
     <script>
+        // Mobile menu toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('nav') && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+            }
+        });
+
         // Typing animation
         const typingTexts = [
             "Building AI-Powered Products That Scale",
