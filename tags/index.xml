@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Suryansh Jaiswal</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://suryanshjaiswal.com/tags/</link>
     <description>Recent content in Tags on Suryansh Jaiswal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://suryanshjaiswal.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Product Management</title>
-      <link>http://localhost:1313/tags/product-management/</link>
+      <link>https://suryanshjaiswal.com/tags/product-management/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/product-management/</guid>
+      <guid>https://suryanshjaiswal.com/tags/product-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Trending</title>
-      <link>http://localhost:1313/tags/trending/</link>
+      <link>https://suryanshjaiswal.com/tags/trending/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/trending/</guid>
+      <guid>https://suryanshjaiswal.com/tags/trending/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://suryanshjaiswal.com/tags/ai/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://suryanshjaiswal.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>SaaS</title>
-      <link>http://localhost:1313/tags/saas/</link>
+      <link>https://suryanshjaiswal.com/tags/saas/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/saas/</guid>
+      <guid>https://suryanshjaiswal.com/tags/saas/</guid>
       <description></description>
     </item>
     <item>
       <title>Trends</title>
-      <link>http://localhost:1313/tags/trends/</link>
+      <link>https://suryanshjaiswal.com/tags/trends/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/trends/</guid>
+      <guid>https://suryanshjaiswal.com/tags/trends/</guid>
       <description></description>
     </item>
   </channel>
