@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Suryansh Jaiswal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://suryanshjaiswal.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product Management</title>
+      <link>https://suryanshjaiswal.com/tags/product-management/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://suryanshjaiswal.com/tags/product-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trending</title>
+      <link>https://suryanshjaiswal.com/tags/trending/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://suryanshjaiswal.com/tags/trending/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Behavioral Design</title>
       <link>https://suryanshjaiswal.com/tags/behavioral-design/</link>
@@ -100,13 +114,6 @@
       <description></description>
     </item>
     <item>
-      <title>Product Management</title>
-      <link>https://suryanshjaiswal.com/tags/product-management/</link>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://suryanshjaiswal.com/tags/product-management/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Product Strategy</title>
       <link>https://suryanshjaiswal.com/tags/product-strategy/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
@@ -125,13 +132,6 @@
       <link>https://suryanshjaiswal.com/tags/startups/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://suryanshjaiswal.com/tags/startups/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Trending</title>
-      <link>https://suryanshjaiswal.com/tags/trending/</link>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://suryanshjaiswal.com/tags/trending/</guid>
       <description></description>
     </item>
   </channel>

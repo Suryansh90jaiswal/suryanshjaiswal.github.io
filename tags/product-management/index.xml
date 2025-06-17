@@ -6,8 +6,15 @@
     <description>Recent content in Product Management on Suryansh Jaiswal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://suryanshjaiswal.com/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Role of Data Centers in Scaling AI Products: Strategies for Product Managers</title>
+      <link>https://suryanshjaiswal.com/posts/the-role-of-data-centers-in-scaling-ai-products-strategies-for-product-managers-2025-06-17/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://suryanshjaiswal.com/posts/the-role-of-data-centers-in-scaling-ai-products-strategies-for-product-managers-2025-06-17/</guid>
+      <description>&lt;h1 id=&#34;the-role-of-data-centers-in-scaling-ai-products-strategies-for-product-managers&#34;&gt;The Role of Data Centers in Scaling AI Products: Strategies for Product Managers&lt;/h1&gt;&#xA;&lt;h2 id=&#34;understanding-data-center-impact-on-ai-product-performance&#34;&gt;Understanding Data Center Impact on AI Product Performance&lt;/h2&gt;&#xA;&lt;p&gt;Data centers are critical for AI operations due to their role in computing power and data storage. Effective utilization of data centers impacts latency, compliance, and cost-efficiency:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Latency&lt;/strong&gt;: AI applications, particularly those requiring real-time insights, depend on low latency. Data center proximity to end-users reduces transmission delay.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compliance&lt;/strong&gt;: Geographical location of data centers can affect regulatory compliance, especially with laws around data sovereignty.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How I Used My Product Management Learnings to Help a Friend’s Offline Business</title>
       <link>https://suryanshjaiswal.com/posts/how-i-used-my-product-management-learnings-to-help-a-friends-offline-business-2025-06-13how-i-used-my-product-management-learnings-in-offline-business-2025-06-13/</link>
